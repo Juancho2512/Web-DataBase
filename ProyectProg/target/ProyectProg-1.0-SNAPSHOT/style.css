@@ -1,0 +1,62 @@
+.encabezado{
+    text-align: center;
+}
+
+.formulario2{
+    text-align: center;
+}
+
+.mostrarinfo{
+    float: right;
+}
+.encontrado{
+    color: green;
+}
+.noEncontrado{
+    color: #EB2D43;
+}
+.contenedorPrincipal{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+
+}
+.content{
+    border: 1px solid #333;
+    padding: 10px;
+}
+.content2{
+    border: 1px solid #333;
+    padding: 10px;
+}
+.content3{
+    border: 1px solid #333;
+    padding: 10px;
+}
+.mostrar{
+    position: relative;
+    margin: 0 auto;
+    width: 15%;
+    align-items: center;
+    margin-top: 20px;
+}
+.mostrarinfo{
+    font-size: 1.2em;
+}
+button:hover{
+    background: aqua;
+    cursor: pointer;
+}
+button{
+    font-size: 17px;
+}
+input{
+    padding: 3px;
+    margin: 5px;
+    margin-left: 10px;
+}
+table{
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
+}

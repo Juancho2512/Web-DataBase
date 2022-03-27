@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Colegio - Sistema de estudiantes</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+
+<div class="encabezado">
+    <h1>Sistema Control de Estudiantes</h1>
+</div>
+<div class="contenedorPrincipal">
+    <div class="content">
+        <form class="formulario" id="formulario">
+            <h1>Buscar Estudiante</h1>
+            <label for="Code">ID</label>
+            <input type="text" id="codeSearch" onkeyup="" placeholder="Codigo estudiante"><br>
+            <div id="info"></div>
+            <button id="Buscar" type="button">Buscar</button>
+    </div>
+    </form>
+
+    <div class="content3">
+        <form class="formulario1" id="formulario1">
+            <h1>Eliminar Estudiante</h1>
+            <label for="Code">ID</label>
+            <input type="text" id="codeSearch1" onkeyup="" placeholder="Codigo estudiante"><br>
+            <div id="info1"></div>
+            <button id="Eliminar" type="button">Eliminar</button>
+    </div>
+    </form>
+
+
+    <div class="content2">
+        <form id="form2">
+
+            <h1>Registrar Estudiante</h1>
+            <label for="Code">Code</label>
+            <input type="number" id="code" placeholder="Ingrese codigo" required><br>
+
+            <label for="Nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingrese nombre" required><br>
+
+            <label for="Deporte">Deporte</label>
+            <input type="text" id="deporte" placeholder="Ingrese Deporte practicado" required><br>
+
+            <label for="Actividad">Actividad</label>
+            <input type="text" id="actividad" placeholder="Torneo asistido y lugar" required><br>
+
+            <button id="Enviar" type="submit">Enviar</button>
+    </div>
+    </form>
+</div>
+
+<div class="mostrar">
+    <!--<button id="mostrarinfo" class="mostrarinfo" type="submit">MostrarLista</button>-->
+    <button id="mostrarinfo" class="mostrarinfo"><a href="http://localhost:3000/control.php" >Mostrar Lista</a></button>
+    <!--<a href="http://localhost:3000/control.php" style="font-size: 1.5em;">MostrarLista </a>-->
+    <!--<a href="http://localhost:3000/Taller%20Progra3/control.php">MostrarLista </a>-->
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
